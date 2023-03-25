@@ -18,7 +18,7 @@
         <select name="class_id">
             <option value="">Show All</option>
             <?php foreach ($classes as $class) : ?>
-                <option value="<?php echo $class['ID']?>" <?php echo $class['ID'] == $class_id? 'selected': ''?>><?php echo $class['class']?></option>
+                <option value="<?php echo $class['ID']?>" <?php echo $class['ID'] == $class_id? 'selected': ''?>><?php echo $class['Class']?></option>
             <?php endforeach; ?>
         </select>
         <label>Sort By:</label>
